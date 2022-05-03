@@ -4,7 +4,7 @@ ogr2ogr is the swiss army knife in the world of geospatial analysis and data pro
 
 Repository contains used in commands below. Checkout <link> for a more in depth walk throogh.
 
-##### Convert data from ESRI Shapefile to Geopackage
+#### Convert data from ESRI Shapefile to Geopackage
 
 `ogr2ogr -f 'GPKG' project_extent.gpkg project_extent_wgs.shp`
 
@@ -13,11 +13,11 @@ Repository contains used in commands below. Checkout <link> for a more in depth 
 - `project_extent.gpkg` is the output file.
 - `project_extent_wgs.shp` is our input file.
 
-##### Reproject data
+#### Reproject data
 
 `ogr2ogr -f 'GPKG' project_extent_rdnew.gpkg project_extent_wgs.shp -t_srs EPSG:28992`
 
-##### Clip data using another layer
+#### Clip data using another layer
 
 `ogr2ogr -f 'GPKG' clipped/clip_buildings.gpkg buildings.gpkg -clipsrc project_extent_rdnew.gpkg -progress`
 
