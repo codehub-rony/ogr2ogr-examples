@@ -1,4 +1,4 @@
-# Demo ogr2ogr geospatial operations
+# Examples of ogr2ogr for geospatial manipulation
 
 ogr2ogr is the swiss army knife in the world of geospatial analysis and data processing. It's main purpose is to convert geospatial data to different dataformats without the need of Geographic Information Systems such as QGIS or ArcPro. It also allows us to do various operations during this process. We can reproject our data; clip it; make a sub selection of data or attributes; intersect it; change column names and much more.
 
