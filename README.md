@@ -2,7 +2,9 @@
 
 ogr2ogr is the swiss army knife in the world of geospatial analysis and data processing. It's main purpose is to convert geospatial data to different dataformats without the need of Geographic Information Systems such as QGIS or ArcPro. It also allows us to do various operations during this process. We can reproject our data; clip it; make a sub selection of data or attributes; intersect it; change column names and much more.
 
-Repository contains used in commands below. Checkout <link> for a more in depth walk throogh.
+Clone the repository to experiment with the data used in the commands below.
+
+For an in depth walkthrough vist my [blogpost](https://www.oneprojectatatime.nl/save-time-preprocess-your-geospatial-data-with-ogr2ogr/) on ogr2ogr 
 
 #### Convert data from ESRI Shapefile to Geopackage
 
